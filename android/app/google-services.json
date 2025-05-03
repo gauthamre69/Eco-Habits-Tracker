@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "741452560343",
+    "project_id": "eco-habits-tracker-new",
+    "storage_bucket": "eco-habits-tracker-new.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741452560343:android:78547f96290133fec67d92",
+        "android_client_info": {
+          "package_name": "com.example.eco_habits_tracker_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsNxE8PfnolZ6FSvpoVxsVfgQGlIk_ln8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

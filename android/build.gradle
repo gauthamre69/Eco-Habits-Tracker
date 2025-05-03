@@ -1,0 +1,33 @@
+// android/build.gradle
+
+buildscript {
+    repositories {
+        google()            // ✅ Added this
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.1'     // ✅ Must be present (latest safe version)
+        classpath 'com.google.gms:google-services:4.4.0'     // ✅ Firebase plugin added
+    }
+}
+
+allprojects {
+    repositories {
+        google()             // ✅ Ensures fetching from Google
+        mavenCentral()
+    }
+}
+
+// These are Flutter defaults
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+// Clean task
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
