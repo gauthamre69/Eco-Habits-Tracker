@@ -1,8 +1,5 @@
 # eco_habits_tracker_new
 
-Here's a clear and respectful way to frame that recommendation in your presentation, documentation, or even during your viva:
-
----
 
 ###  Deployment Recommendation for Evaluation
 
@@ -25,7 +22,3 @@ If you'd still like to inspect the codebase:
 * We’ve included a full README with setup steps.
 * Firebase integration is documented and modular.
 * All code is organized and ready to run locally if needed.
-
----
-
-Would you like this added directly to your README or presentation document? I can place it in the right section. ✅
