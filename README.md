@@ -4,11 +4,11 @@ Here's a clear and respectful way to frame that recommendation in your presentat
 
 ---
 
-### 📱 Deployment Recommendation for Evaluation
+###  Deployment Recommendation for Evaluation
 
 To streamline the review process and avoid time-consuming setup:
 
-> **We recommend installing the pre-built `.apk` file directly on an Android device.**
+> **We recommend installing the pre-built `.apk` file directly on an Android device.(app-release.apk)**
 
 This will allow you to:
 
@@ -18,7 +18,7 @@ This will allow you to:
 
 ---
 
-### 🛠️ Alternate Option (If Preferred)
+### 🛠 Alternate Option (If Preferred)
 
 If you'd still like to inspect the codebase:
 
